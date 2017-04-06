@@ -1,5 +1,5 @@
 header {
-  width: 62%;
+  width: 60%;
   text-align: center;
   margin: 30px auto 0 auto;
   background-color: rgba(10,10,10,.7);
@@ -7,10 +7,12 @@ header {
 }
 
 body {
+  background-color: black;
   background-image: url("images/pic1.jpg");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
@@ -24,7 +26,7 @@ ul {
   padding-bottom: 10px;
   background-color: rbga(0,0,0,.5);
   word-spacing: 10px;
-  font-size: 2vw;
+  font-size: 18px;
 }
 
 li {
@@ -40,7 +42,6 @@ li {
 article {
   font-family: 'Space Mono', monospace;
   max-width: 60%;
-  padding: 20px 10px;
   margin-top: 10px ;
   margin-left: auto;
   margin-right: auto;
@@ -51,4 +52,5 @@ article {
 
 h2, p {
   color: white;
+  padding: 10px 20px;
 }
