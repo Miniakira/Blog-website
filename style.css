@@ -1,10 +1,10 @@
 header {
-  width: 50%;
+  width: 60%;
   padding: 10px, 300px, 20px, 300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(20,20,20,0.5);
+  background-color: rgba(10,10,10,.7);
   color: white;
 }
 
@@ -24,7 +24,7 @@ h1 {
 ul {
   padding-left: 10px;
   padding-bottom: 10px;
-  background-color: rbga(0, 0, 0, 0.5);
+  background-color: rbga(0,0,0,.5);
   word-spacing: 10px;
   font-size: 2vw;
 }
@@ -41,14 +41,14 @@ li {
 
 article {
   font-family: 'Space Mono', monospace;
-  max-width: 50%;
+  max-width: 60%;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 10px ;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: rgba(40,40,40,0.5);
+  background-color: rgba(10,10,10,.7);
   font-size: 14px;
 }
 
