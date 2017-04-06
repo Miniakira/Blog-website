@@ -1,8 +1,7 @@
 header {
   width: 62%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto 0 auto;
   background-color: rgba(10,10,10,.7);
   color: white;
 }
