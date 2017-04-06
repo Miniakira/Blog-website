@@ -15,7 +15,7 @@ h1 {
 body {
   font-family: helvetica;
   background-image: url("images/pic1.jpg");
-  background-size: cover;
+  background-size: 100%;
 }
 
 ul {
