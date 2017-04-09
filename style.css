@@ -39,7 +39,15 @@ li {
   text-decoration: none;
 }
 
-article {
+.post {
+  font-size: 20px;
+}
+
+small {
+  font-size: 12px;
+}
+
+.postdiv {
   font-family: 'Space Mono', monospace;
   max-width: 60%;
   margin-top: 10px ;
@@ -53,4 +61,13 @@ article {
 h2, p {
   color: white;
   padding: 10px 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.postpic {
+  max-width: 95%;
+  margin: 80px,20px,20px 20px;
 }

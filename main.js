@@ -1,7 +1,8 @@
 function main(){
  $(".post").hide();
   $(".postdiv").on("click", function(){
-    $(this).children().slideToggle();
+    $(this).children().toggle();
+
 });
  }
 
