@@ -1,7 +1,7 @@
 function main(){
  $(".post").hide();
   $(".postdiv").on("click", function(){
-    $(this).children().toggle();
+    $(this).children().slideToggle();
 
 });
  }
@@ -11,19 +11,19 @@ function main(){
     $(".contactdiv").hide();
 
      $("#nav1").on("click", function(){
-       $(".aboutdiv").hide();
-       $(".contactdiv").hide();
-       $(".postdiv").show("slow");
+       $(".aboutdiv").slideUp();
+       $(".contactdiv").slideUp();
+       $(".postdiv").slideDown();
     });
      $("#nav2").on("click", function(){
-       $(".contactdiv").hide();
-       $(".postdiv").hide();
-       $(".aboutdiv").show("slow");
+       $(".contactdiv").slideUp();
+       $(".postdiv").slideUp();
+       $(".aboutdiv").slideDown();
     });
     $("#nav3").on("click", function(){
-      $(".aboutdiv").hide();
-      $(".postdiv").hide();
-      $(".contactdiv").show("slow");
+      $(".aboutdiv").slideUp();
+      $(".postdiv").slideUp();
+      $(".contactdiv").slideDown();
     });
  }
 
