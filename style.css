@@ -49,13 +49,20 @@ a:hover, a:active {
 
 .post {
   font-size: 20px;
+  margin: 20px;
+}
+
+img.post {
+  max-width: 95%;
+  display: inline;
+  margin: 10px;
 }
 
 small {
   font-size: 12px;
 }
 
-.postdiv {
+.postdiv, .aboutdiv, .contactdiv {
   font-family: 'Space Mono', monospace;
   max-width: 60%;
   margin-top: 10px ;
@@ -64,11 +71,11 @@ small {
   text-align: center;
   background-color: rgba(10,10,10,.7);
   font-size: 14px;
+  padding: 10px;
 }
 
 h2, p {
   color: white;
-  padding: 10px 20px;
   font-weight: normal;
 }
 
@@ -76,7 +83,6 @@ h2 {
   font-size: 20px;
 }
 
-.postpic {
-  max-width: 95%;
-  margin: 80px,20px,20px 20px;
+.posthead {
+  padding: 10px;
 }
