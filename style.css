@@ -39,6 +39,14 @@ li {
   text-decoration: none;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
+a:hover, a:active {
+ color: grey;
+}
+
 .post {
   font-size: 20px;
 }
@@ -61,6 +69,7 @@ small {
 h2, p {
   color: white;
   padding: 10px 20px;
+  font-weight: normal;
 }
 
 h2 {
