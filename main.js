@@ -13,17 +13,17 @@ function main(){
      $("#nav1").on("click", function(){
        $(".aboutdiv").hide();
        $(".contactdiv").hide();
-       $(".postdiv").show();
+       $(".postdiv").show("slow");
     });
      $("#nav2").on("click", function(){
        $(".contactdiv").hide();
        $(".postdiv").hide();
-       $(".aboutdiv").show();
+       $(".aboutdiv").show("slow");
     });
     $("#nav3").on("click", function(){
       $(".aboutdiv").hide();
       $(".postdiv").hide();
-      $(".contactdiv").show();
+      $(".contactdiv").show("slow");
     });
  }
 
