@@ -60,6 +60,7 @@ img.post {
 
 small {
   font-size: 12px;
+  color: white;
 }
 
 .postdiv, .aboutdiv, .contactdiv {
@@ -74,15 +75,10 @@ small {
   padding: 10px;
 }
 
-h2, p {
-  color: white;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 20px;
-}
 
 .posthead {
+  font-size: 20px;
+  color: white;
   padding: 10px;
+  font-weight: normal;
 }
